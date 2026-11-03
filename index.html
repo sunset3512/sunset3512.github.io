@@ -1,18 +1,331 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Kyla's Github Pages</title>
-	<style>
-		body {font-family: Arial, Helvetica, sans-serif; color: gray}
-	</style>
-</head>
-<body>
-	<h1>Kyla's Github Page</h1>
-	<p> See my Github Projects</p>
-	<br>
-	<a href="https://github.com/sunset3512">
-	View Github Projects Here</a>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <meta
+    name="description"
+    content="Kyla Andersen is a Computer Science and Computer Engineering double major at Montana State University seeking Summer 2027 software engineering internships. Explore projects in Java, compiler development, Python robotics, and databases."
+  >
+
+  <meta name="theme-color" content="#245745">
+
+  <title>Kyla Andersen | Software Engineering Portfolio</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container header-content">
+      <a class="site-name" href="#main">
+        Kyla Andersen<span>.</span>
+      </a>
+
+      <nav aria-label="Main navigation">
+        <a href="#projects">Projects</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero container" aria-labelledby="hero-title">
+      <div class="hero-content">
+        <p class="eyebrow">
+          Computer Science &amp; Computer Engineering
+        </p>
+
+        <h1 id="hero-title">
+          Kyla Andersen.<br>
+          <span>Software &amp; systems.</span>
+        </h1>
+
+        <p class="hero-description">
+          I'm a double major at Montana State University interested
+          in software engineering, backend development, and the
+          connection between software and hardware. My projects
+          span Java compiler development, Python robotics,
+          and relational databases.
+        </p>
+
+        <p>
+          <strong>
+            Seeking Summer 2027 software engineering internships.
+          </strong>
+        </p>
+
+        <div class="button-group">
+          <a class="button button-primary" href="#projects">
+            Explore my projects
+            <span aria-hidden="true">↗</span>
+          </a>
+
+          <a
+            class="button button-secondary"
+            href="https://github.com/sunset3512"
+          >
+            Visit GitHub
+          </a>
+        </div>
+      </div>
+
+      <aside class="profile-panel" aria-label="At a glance">
+        <div class="monogram" aria-hidden="true">KA</div>
+
+        <h2>
+          From low-level operations<br>
+          to working software.
+        </h2>
+
+        <dl class="profile-details">
+          <div>
+            <dt>Education</dt>
+            <dd>Montana State University</dd>
+          </div>
+
+          <div>
+            <dt>Double major</dt>
+            <dd>
+              Computer Science<br>
+              Computer Engineering
+            </dd>
+          </div>
+
+          <div>
+            <dt>Expected graduation</dt>
+            <dd>December 2027</dd>
+          </div>
+
+          <div>
+            <dt>Interests</dt>
+            <dd>
+              Software engineering, backend development,
+              and systems programming
+            </dd>
+          </div>
+        </dl>
+      </aside>
+    </section>
+
+    <section
+      id="projects"
+      class="section container"
+      aria-labelledby="projects-title"
+    >
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Programming in practice</p>
+          <h2 id="projects-title">Selected projects.</h2>
+        </div>
+
+        <p class="section-description">
+          Coursework and hands-on projects exploring
+          language implementation, robotics, and application data.
+        </p>
+      </div>
+
+      <div class="project-grid">
+        <article class="project-card">
+          <span class="project-number" aria-hidden="true">01 /</span>
+
+          <h3>Catscript Compiler</h3>
+
+          <p>
+            Built a compiler in Java for Catscript, a custom
+            programming language, through a sequence of
+            assignments validated by tests.
+          </p>
+
+          <p>
+            The coursework progressed from assembly-level
+            exercises involving bits and registers to higher-level
+            language abstractions, connecting low-level execution
+            concepts with compiler development.
+          </p>
+
+          <ul class="tags" aria-label="Project technologies and topics">
+            <li>Java</li>
+            <li>Compiler development</li>
+            <li>Assembly</li>
+            <li>Testing</li>
+          </ul>
+        </article>
+
+		<article class="project-card">
+  <span class="project-number" aria-hidden="true">02 /</span>
+
+  <h3>Human–Robot Interaction Research</h3>
+
+  <p>
+    Contributed to a university research project exploring
+    human–robot compatibility using a robotic arm and
+    camera vision.
+  </p>
+
+  <p>
+    Developed Python code for the arm's movement framework
+    and investigated network and communication challenges
+    between components, supporting the technical setup
+    for human–robot interaction research.
+  </p>
+
+  <ul class="tags" aria-label="Project technologies and topics">
+    <li>Python</li>
+    <li>Robotics</li>
+    <li>Camera vision</li>
+    <li>University research</li>
+  </ul>
+</article>
+
+        <article class="project-card">
+          <span class="project-number" aria-hidden="true">03 /</span>
+
+          <h3>Relational Databases &amp; Java</h3>
+
+          <p>
+            Developed database coursework using SQLite,
+            MariaDB, and Java database connectivity.
+          </p>
+
+          <p>
+            Worked with joins, aggregate queries, window
+            functions, prepared statements, and transactions
+            to retrieve and manage relational data.
+          </p>
+
+          <ul class="tags" aria-label="Project technologies and topics">
+            <li>SQL</li>
+            <li>Java / JDBC</li>
+            <li>SQLite</li>
+            <li>MariaDB</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section
+      id="about"
+      class="section container about-layout"
+      aria-labelledby="about-title"
+    >
+      <div>
+        <p class="eyebrow">A little background</p>
+
+        <h2 id="about-title">
+          Understanding how<br>
+          the pieces work.
+        </h2>
+      </div>
+
+      <div class="about-copy">
+        <p>
+          I'm a Computer Science and Computer Engineering
+          double major at Montana State University, with
+          an expected graduation date of December 2027.
+        </p>
+
+        <p>
+          I'm especially interested in coding-focused work:
+          implementing application logic, working with data,
+          and understanding how software interacts with
+          underlying systems. My coursework includes compiler
+          development, databases, digital systems, and
+          hardware-software integration.
+        </p>
+
+        <p>
+          Alongside school, I work in web and marketing,
+          where I help maintain websites and improve their
+          clarity, consistency, and usability.
+        </p>
+
+        <p>
+          I'm seeking a Summer 2027 internship where I can
+          contribute to software projects, learn from
+          experienced developers, and strengthen my
+          engineering skills.
+        </p>
+      </div>
+    </section>
+
+    <section
+      id="skills"
+      class="section container"
+      aria-labelledby="skills-title"
+    >
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Languages, tools &amp; coursework</p>
+          <h2 id="skills-title">Technical skills.</h2>
+        </div>
+      </div>
+
+      <div class="skills-grid">
+        <div class="skill-group">
+          <h3>Programming</h3>
+          <p>Java, Python, SQL, PHP, JavaScript, VHDL</p>
+        </div>
+
+        <div class="skill-group">
+          <h3>Databases &amp; development tools</h3>
+          <p>SQLite, MariaDB, JDBC, Git, Linux, Vim</p>
+        </div>
+
+        <div class="skill-group">
+          <h3>Additional technical experience</h3>
+          <p>
+            HTML, CSS, FPGA development,
+            Quartus Prime, Questa, DE10-Nano
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section
+      id="contact"
+      class="section container"
+      aria-labelledby="contact-title"
+    >
+      <div class="contact-panel">
+        <p class="eyebrow">Summer 2027 opportunities</p>
+
+        <h2 id="contact-title">Let's connect.</h2>
+
+        <p>
+          I'm interested in software engineering internships,
+          including backend, systems, and embedded software
+          opportunities. I prefer Bozeman, Montana, or remote
+          positions and am open to discussing other locations.
+        </p>
+
+        <p>
+          You can find my profile and public repositories on GitHub.
+        </p>
+
+        <!-- Add your professional email, LinkedIn, and résumé here. -->
+
+        <div class="button-group">
+          <a
+            class="button button-primary"
+            href="https://github.com/sunset3512"
+          >
+            View my GitHub
+            <span aria-hidden="true">↗</span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="container site-footer">
+    <span>Kyla Andersen</span>
+    <span>Built with HTML &amp; CSS. Hosted on GitHub Pages.</span>
+  </footer>
 </body>
 </html>
-
